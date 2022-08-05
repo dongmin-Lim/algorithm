@@ -1,3 +1,5 @@
+// 바이러스 (BFS 너비우선탐색 알고리즘)
+
 let input = require("fs").readFileSync("example.txt").toString().split("\n");
 //console.log(input)
 const vertexNumber = Number(input[0]); // 컴퓨터의 수 : 7

@@ -1,3 +1,5 @@
+// 동전0 (탐욕법 알고리즘)
+
 let input = require("fs").readFileSync("example.txt").toString().trim().split("\n");
 // const input = require("fs").readFileSync("/dev/stdin").toString().trim().split("\n");
 
