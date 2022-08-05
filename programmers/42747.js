@@ -1,3 +1,5 @@
+// H-index
+
 function solution(citations) {
   let answer = 0;
   const length = citations.length; // 5 (배열의 길이)
