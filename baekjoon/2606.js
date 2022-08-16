@@ -1,7 +1,6 @@
 // 바이러스 (BFS 너비우선탐색 알고리즘)
 
 let input = require("fs").readFileSync("example.txt").toString().split("\n");
-//console.log(input)
 const vertexNumber = Number(input[0]); // 컴퓨터의 수 : 7
 const graph = {};
 
@@ -22,6 +21,7 @@ for (let i = 0; i < vertexNumber - 1; i++) {
   }
 }
 
+console.log(graph);
 const BFS = (graph, startNode) => {
   const visited = []; // 탐색을 마친 노드들
   let needVisit = []; // 탐색해야할 노드들
